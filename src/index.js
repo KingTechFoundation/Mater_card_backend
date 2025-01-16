@@ -19,7 +19,7 @@ const __dirname = path.resolve();
 // Define allowed origins for CORS
 const allowedOrigins =
   process.env.NODE_ENV === 'production'
-    ? ['https://chatappbygael.netlify.app']
+    ? ['https://hillaryschattyapp.netlify.app']
     : ['http://localhost:5173'];
 
 app.use(express.json());
